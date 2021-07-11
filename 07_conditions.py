@@ -37,11 +37,6 @@ if x == 2:
 else:
     print("x does not equal to two.")
 
-#Is operator
-x = [1,2,3]
-y = [1,2,3]
-print(x == y) # Prints out True
-print(x is y) # Prints out False
 #not operator
 
 print(not False) # Prints out True
@@ -62,6 +57,3 @@ if len(second_array) == 2:
 
 if len(first_array) + len(second_array) == 5:
     print("3")
-
-if first_array and first_array[0] == 1:
-    print("4")
