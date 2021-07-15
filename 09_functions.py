@@ -37,11 +37,12 @@ x = sum_two_numbers(1,2)
 
 # Modify this function to return a list of strings as defined above
 def list_benefits():
-    pass
+    return "More organized code", "More readable code", "Easier code reuse", "Allowing programmers to share and connect code together"
 
 # Modify this function to concatenate to each benefit - " is a benefit of functions!"
 def build_sentence(benefit):
-    pass
+    return "%s is a benefit of functions!" % benefit
+
 
 def name_the_benefits_of_functions():
     list_of_benefits = list_benefits()
