@@ -102,9 +102,8 @@ urllib.urlopen(...)
 
 help(urllib.urlopen)
 
-import foo.bar
 
-from foo import bar
+
 
 __init__.py:
 
