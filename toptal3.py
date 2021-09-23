@@ -2,6 +2,7 @@
 
 def solution(S):
     # write your code in Python 3.6
+    photos = S.split('\n')
   photos = S.split('\n')
   photos = [photo.split(' ') for photo in photos]
   photos_dict = {}
